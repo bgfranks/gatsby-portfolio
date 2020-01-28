@@ -10,6 +10,15 @@ module.exports = {
     title: "Brandon Franks",
     author: "Brandon Franks",
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+  ],
 }
 require("dotenv")
