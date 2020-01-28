@@ -1,6 +1,6 @@
 ---
 title: "Beginner Gatsby"
-data: "1-27-2020"
+date: "1-27-2020"
 ---
 
 Learing the basics of Gatsbyjs
