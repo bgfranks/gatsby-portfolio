@@ -5,6 +5,8 @@ date: "1-27-2020"
 
 Learing the basics of Gatsbyjs
 
+![Gatsby Logo](./gatsby-logo.png)
+
 ## Things I've Learned So far
 
 1. Using links as a tags
