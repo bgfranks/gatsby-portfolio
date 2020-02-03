@@ -10,7 +10,6 @@ require("dotenv").config({
   path: `.env.${activeEnv}`,
 })
 
-require("dotenv").config()
 module.exports = {
   /* Your site config here */
   siteMetadata: {
@@ -18,6 +17,7 @@ module.exports = {
     author: "Brandon Franks",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
