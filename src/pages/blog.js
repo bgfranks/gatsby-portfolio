@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 
-import Layout from "../Components/Layout"
+import Layout from "../Components/global/Layout"
 import blogStyles from "./blog.module.scss"
-import Head from "../Components/Head"
+import Head from "../Components/global/Head"
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
